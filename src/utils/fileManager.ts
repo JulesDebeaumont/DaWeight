@@ -1,4 +1,6 @@
 import { Plugins, FilesystemDirectory, FilesystemEncoding } from '@capacitor/core'
+// https://capacitorjs.com/docs/v2/apis/filesystem#example
+// C'est la v2 et pas la v4, Quasar pas encore compatible ?
 import { IEntry } from 'src/components/models'
 
 const { Filesystem } = Plugins
